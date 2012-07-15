@@ -15,10 +15,11 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: twit_development
+  host: ec2-23-21-85-231.compute-1.amazonaws.com
+  database: d2qbv36io4g6j8
   pool: 5
-  username: twit
-  password: twit
+  username: yzgxzlailzhnwx
+  password: xZMWLsqInNLeN2LFIUSGlDdSxD
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
