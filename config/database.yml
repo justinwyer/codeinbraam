@@ -15,11 +15,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  host: ec2-23-21-85-231.compute-1.amazonaws.com
-  database: d2qbv36io4g6j8
+  database: twit_development
   pool: 5
-  username: yzgxzlailzhnwx
-  password: xZMWLsqInNLeN2LFIUSGlDdSxD
+  username: twit
+  password: twit
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -42,17 +41,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  host: ec2-23-21-85-231.compute-1.amazonaws.com
-  database: d2qbv36io4g6j8
+  database: twit_test
   pool: 5
-  username: yzgxzlailzhnwx
-  password: xZMWLsqInNLeN2LFIUSGlDdSxD
+  username: twit
+  password:
 
 production:
   adapter: postgresql
-    encoding: unicode
-    host: ec2-23-21-85-231.compute-1.amazonaws.com
-    database: d2qbv36io4g6j8
-    pool: 5
-    username: yzgxzlailzhnwx
-    password: xZMWLsqInNLeN2LFIUSGlDdSxD
+  encoding: unicode
+  database: twit_production
+  pool: 5
+  username: twit
+  password:
